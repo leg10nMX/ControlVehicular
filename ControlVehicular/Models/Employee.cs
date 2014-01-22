@@ -17,6 +17,8 @@ namespace ControlVehicular.Models
 
         public string LicenceNumber { get; set; }
 
+        public DateTime LicenceExpiration { get; set; }
+
         public Department Department { get; set; }
 
     }
