@@ -28,14 +28,14 @@ namespace ControlVehicular.Migrations
                 Roles.CreateRole(RolesConstants.Administrator);
             }
 
-            if (!Roles.RoleExists(RolesConstants.DepartmentChief))
+            if (!Roles.RoleExists(RolesConstants.Security))
             {
                 Roles.CreateRole(RolesConstants.Security);
             }
 
             if (!Roles.RoleExists(RolesConstants.DepartmentChief))
             {
-                Roles.CreateRole(RolesConstants.Security);
+                Roles.CreateRole(RolesConstants.DepartmentChief);
             }
 
             string admin="Admin";
