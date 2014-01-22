@@ -15,7 +15,6 @@ namespace ControlVehicular.Models
 
         public string Name { get; set; }
 
-        public string HeadName { get; set; }
-
+        public Employee Chief { get; set; }
     }
 }
