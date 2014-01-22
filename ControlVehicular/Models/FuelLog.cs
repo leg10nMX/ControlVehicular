@@ -7,20 +7,25 @@ using System.Web;
 
 namespace ControlVehicular.Models
 {
-    public class Vehicle
+    public class FuelLog
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string Model { get; set; }
+        public Vehicle Vehicle { get; set; }
 
-        public string UnitNumber { get; set; }
-
-        public int Year { get; set; }
+        public UserProfile LogOwner { get; set; }
 
         public int Kilometrage { get; set; }
 
+        public int Liters { get; set; }
+
+        public float Cost { get; set; }
+
+        public DateTime FilledOn { get; set; }
+
         public DateTime RegisteredOn { get; set; }
+
     }
 }

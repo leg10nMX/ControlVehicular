@@ -23,5 +23,7 @@ namespace ControlVehicular.Models
 
         public Department Department { get; set; }
 
+        public DateTime RegisteredOn { get; set; }
+
     }
 }
