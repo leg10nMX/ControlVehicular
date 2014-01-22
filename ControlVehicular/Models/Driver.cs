@@ -17,7 +17,7 @@ namespace ControlVehicular.Models
 
         public string LicenceNumber { get; set; }
 
-
+        public Department Department { get; set; }
 
     }
 }
