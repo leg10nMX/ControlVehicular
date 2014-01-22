@@ -7,7 +7,7 @@ using System.Web;
 
 namespace ControlVehicular.Models
 {
-    public class Driver
+    public class Employee
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
